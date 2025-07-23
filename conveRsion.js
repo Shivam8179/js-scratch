@@ -1,0 +1,152 @@
+// // // // // // // // // // //let id = "123";
+// // // // // // // // // // //let newId = Number(id);
+// // // // // // // // // // //console.log(newId);
+// // // // // // // // // // //console.log(typeof newId);
+
+// // // // // // // // // // //data types 
+// // // // // // // // // // //let user ="shivam";
+// // // // // // // // // // //let age =18;
+// // // // // // // // // // //let gmail = "shivam@123gmail.com";
+// // // // // // // // // // //console.log(`user is ${user} and age is ${age} gmail is ${gmail}`);
+// // // // // // // // // // //number of data types
+// // // // // // // // // // //console.log(1+2+"3");
+
+// // // // // // // // // // //console.log(1+2+"2");
+
+// // // // // // // // // // //increment and decrement
+// // // // // // // // // // //let x =3;
+// // // // // // // // // // //let y = x--;
+// // // // // // // // // // //console.log(x);
+// // // // // // // // // // //console.log(y);
+
+// // // // // // // // // // //true or flse
+// // // // // // // // // // //console.log(3==="3");
+
+
+// // // // // // // // // // //logical operators
+// // // // // // // // // // console.log(0===false);
+// // // // // // // // // // console.log(0==false);
+// // // // // // // // // // console.log(null== undefined);
+// // // // // // // // // // console.log(null===undefined);
+
+// // // // // // // // // //comperison operators
+// // // // // // // // // let marks =80;
+// // // // // // // // // let marks2 = 90;
+// // // // // // // // // let marks3 = 70;
+// // // // // // // // // if(marks>=80){
+// // // // // // // // //     console.log("you are pass");
+// // // // // // // // // }
+// // // // // // // // // if(marks2>=80){
+// // // // // // // // //     console.log("you are pass");
+// // // // // // // // // }
+// // // // // // // // // if(marks3>=80){
+// // // // // // // // //     console.log("you are pass");
+// // // // // // // // // }
+// // // // // // // // // //ternary operator
+// // // // // // // // let age=56;
+// // // // // // // // let result = age >=18? "Adult":"Minor";
+// // // // // // // // console.log(result);
+
+// // // // // // // // //switch case numeric
+// // // // // // // let day = 8;
+// // // // // // // switch(day)
+// // // // // // // {
+// // // // // // //     case 1:
+// // // // // // //         console.log("Today is Monday");
+// // // // // // //         break;
+// // // // // // //     case 2:
+// // // // // // //         console.log("Today is Tuesday");
+// // // // // // //         break;
+// // // // // // //     case 3:
+// // // // // // //         console.log("Today is Wednesday");
+// // // // // // //         break;
+// // // // // // //     case 4:
+// // // // // // //         console.log("Today is Thursday");
+// // // // // // //         break;
+// // // // // // //     case 5:
+// // // // // // //         console.log("Today is Friday");
+// // // // // // //         break;
+// // // // // // //     case 6:
+// // // // // // //         console.log("Today is Saturday");
+// // // // // // //         break;
+// // // // // // //     case 7:
+// // // // // // //         console.log("Today is Sunday");
+// // // // // // //         break;
+// // // // // // //     default:
+// // // // // // //         console.log("Invalid day");
+// // // // // // // }
+
+// // // // // // // //switch case string
+// // // // // // let dayName = "Monday";
+// // // // // // switch(dayName)
+// // // // // // {
+// // // // // //     case "Monday":
+// // // // // //         console.log("Today is Monday");
+// // // // // //         break;
+// // // // // //     case "Tuesday":
+// // // // // //         console.log("Today is Tuesday");
+// // // // // //         break;
+// // // // // //     case "Wednesday":
+// // // // Simple for loop example: print numbers 1 to 5
+// // // for (let i = 1; i <= 5; i++) {
+// // //   console.log(i);
+// // // }
+// // // // // //         console.log("Today is Wednesday");
+// // // // // //         break;
+// // // // // //     case "Thursday":
+// // // // // //         console.log("Today is Thursday");
+// // // // // //         break;
+// // // // // //     case "Friday":
+// // // // // //         console.log("Today is Friday");
+// // // // // //         break;
+// // // // // //     case "Saturday":
+// // // // // //         console.log("Today is Saturday");
+// // // // // //         break;
+// // // // // //     case "Sunday":
+// // // // // //         console.log("Today is Sunday");
+// // // // // //         break;
+// // // // // //     default:
+// // // // // //         console.log("Invalid day");
+// // // // // // }
+
+// // // // // // // //for loop 2,4,6,8,10;
+// // // // for( i = 2; i <= 10; i += 2) {
+// // // //  console.log(i);
+// // // // }
+
+// // // let num = undefined ?? 10;
+// // // console.log(num);
+
+
+// // function printGreeting(name) {
+// //     return `hello how are you,${name}`;
+// // }
+// // console.log(printGreeting("shivam"));
+// // console.log(printGreeting("deep"));
+// // console.log(printGreeting("deepak"));
+// // console.log(printGreeting("raj"));
+
+// // function addNum(num1,num2)
+// // {
+// //     return num1+num2;
+// //     console.log("i am here"); // after return console not print
+// // }
+// // console.log(addNum(10,20));
+
+// function addNum(num1, num2) {
+//     let n1 = Number(num1);
+//     let n2 = Number(num2);
+//     return n1 + n2;
+// }
+// console.log(addNum(10, "20abc"));
+
+function addNum(num1, num2) {
+let n1 = Number(num1);
+let n2 = Number(num2);
+if(isNaN(n1) || isNaN(n2)){
+    return ("Enter proper number");
+
+}
+return n1 + n2;
+}
+console.log(addNum(10, "20abc"));
