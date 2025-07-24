@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // // // console.log("hello world");
 
 // // // *******************************************
@@ -73,7 +72,6 @@
 // console.log(num);
 
 let userName = "sai";
-=======
 // console.log("hello world");
 
 // *******************************************
@@ -138,4 +136,3 @@ let userName = "sai";
 console.log("123");
 
 
->>>>>>> bf57edd2c37d8798b3e2a5e927d689853ccfc63e
